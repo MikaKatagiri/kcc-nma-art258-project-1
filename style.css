@@ -4,25 +4,25 @@
 
 body {
   margin: 0;
-	font-family: Helvetica;
 	font-size: 100%; /* 1em = 16px */
 	line-height: 1.5em; /* 16px x 1.5em = 24px */
 	color: black;
 }
 
 .nav {
-	position: fixed;
-	z-index: 999;
 	top: 0;
 	left: 0;
 	width: 100%;
+  justify-content: center;
+  display: flex;
 }
 
 
 .logo {
-  width: 60px;
-	padding-top: 1em;
-	padding-bottom: 1em;
+  width: 120px;
+	padding-top: 5em;
+  display: block;
+  margin: auto;
 }
 
 main {
@@ -32,25 +32,17 @@ main {
   box-shadow: 0 0 20px 0 black;
 }
 
-nav {
-  margin-bottom: 30px;
-  display: flex;
-  align-items: center;
-}
-
 nav ul {
   display: flex;
   width: 75%;
 }
 
-nav h1 {
-  width: 25%;
-}
 
 nav li {
   justify-content: space-between;
   width: 100%;
   text-align: center;
+  padding: 2em;
 }
 
 nav li a {
@@ -58,5 +50,13 @@ nav li a {
   text-transform: uppercase;
   font-family: 'Slabo 27px', serif;
   letter-spacing: .1rem;
-  color: yellow;
+  color: black;
+}
+
+header .love {
+  display: block;
+  width: 600px;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
