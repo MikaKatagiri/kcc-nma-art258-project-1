@@ -4,11 +4,6 @@
 	box-sizing: border-box;
 }
 
-
-a { color: black; text-decoration: none; outline: 0; }
-a:hover, a:focus { color: #f1586e; }
-
-
 .scale-with-grid {
   max-width: 100%;
   height: auto;
@@ -87,24 +82,11 @@ h2 {
 	color: white;
 }
 
-h3 {
-	font-family: Helvetica;
-  font-weight: bold;
-  font-size: 2em;
-  line-height: 1em;
-  letter-spacing: -.025em;
-	text-decoration: none;
-}
+a { color: black; text-decoration: none; outline: 0; }
+a:hover, a:focus { color: #f1586e; }
 
 
-h6 {
-	font-family: Helvetica;
-  font-weight: bold;
-  font-size: 1.4em;
-  line-height: 1.25em;
-  letter-spacing: -.025em;
-	text-decoration: none;
-}
+
 
 .section1 .love {
   display: block;
